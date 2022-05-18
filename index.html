@@ -1,0 +1,110 @@
+<DOCTYPE html>
+    <html lang="en">
+    <header>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css">
+        <title>ZipZop</title>
+        <script src="https://kit.fontawesome.com/bf7e05c402.js"></script>
+    </header>
+
+    <body>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="toolbar-container">
+                    <div class="top-toolbar-container">
+                        <img src="/img/avatar4.png" class="user-photo profile" alt="avatar">
+                        <div class="icons-toolbar-container">
+                            <i class="fas fa-spinner"></i>
+                            <i class="fas fa-comment-alt"></i>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                    </div>
+                    <div class="notification-container">
+                        <i class="fas fa-bell-slash"></i>
+                        <div class="text-box">
+                            <p class="receive-notification">Receba notificações de novas mensagens</p>
+                            <p class="activate-notification">Ativar notificações na área de trabalho <i
+                                    class="fas fa-angle-right"></i></p>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <div class="search-box">
+                            <i id="contact-search" class="fas fa-search"></i>
+                            <input type="text" id="search" name="search"
+                                placeholder="Pesquisar ou começar uma nova conversa">
+                        </div>
+                        <div class="contact-container">
+                            <div class="contact-box">
+                                <img class="user-photo" src="img/avatar2.png">
+                                <div class="message-container">
+                                    <div class="row-1">
+                                        <div class="username">Paola</div>
+                                        <div class="date-message">01/02/2022</div>
+                                    </div>
+                                    <div class="row-2">
+                                        <i class="fas fa-check-double"></i>
+                                        <div class="resume-message">Oi como vc está?</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-box">
+                                <img class="user-photo" src="img/avatar3.png">
+                                <div class="message-container">
+                                    <div class="row-1">
+                                        <div class="username">Carlos Lamark</div>
+                                        <div class="date-message">30/01/2022</div>
+                                    </div>
+                                    <div class="row-2">
+                                        <i class="fas fa-check-double"></i>
+                                        <div class="resume-message">Bora fazer um projeto?</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-box active-chat">
+                                <img class="user-photo" src="img/avatar1.png">
+                                <div class="message-container">
+                                    <div class="row-1">
+                                        <div class="username">Richard Lima</div>
+                                        <div class="date-message">Agora</div>
+                                    </div>
+                                    <div class="row-2">
+                                        <i class="fas fa-check-double"></i>
+                                        <div class="resume-message">Gostaria de conhecer...</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="img/avatar1.png">
+                    <p class="user-name">Richard Lima</p>
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-paperclip"></i></li>
+                    <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messages">
+                    <p class="guest-message">Olá, bom dia</p>
+                    <p class="user-message">Oi, tudo bem?</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="far fa-grin"></i>
+                <input id="chatmessage" type="text" name="message" class="userinput" placeholder="Digite uma mensagem">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </main>
+        </div>
+    </body>
+
+    </html>
